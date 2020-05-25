@@ -14,4 +14,4 @@ const geocode = (address, result) => {
     })
 }
 
-module.exports = geocode
+module.exports = geocode;
