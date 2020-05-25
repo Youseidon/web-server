@@ -11,7 +11,8 @@ const forecast = (latitude, longitude, result) => {
             result(undefined, {
                 description: body.current.weather_descriptions[0],
                 temperature: body.current.temperature,
-                humidity: body.current.humidity
+                humidity: body.current.humidity,
+                wind_speed: body.current.wind_speed
             });
         }
     })
