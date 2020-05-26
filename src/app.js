@@ -11,7 +11,6 @@ const port = process.env.PORT || 3000;
 const dirStaticPath = path.join(__dirname, '../public')
 const viewDirectory = path.join(__dirname, '../templates/views')
 const partialPath = path.join(__dirname, '../templates/partials')
-console.log(viewDirectory)
 
 // Setup handlebars engine and views location
 app.set('view engine', 'hbs');
